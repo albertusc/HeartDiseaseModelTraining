@@ -33,3 +33,7 @@ Medical Test Variables:
 
 Dependent Variable:
 - Heart Disease: Presence (1) or absence (0) of cardiovascular disease in the patient.
+
+Dataset Reference:
+[heart.csv] - [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset]
+[heart_2020_cleaned.csv] - [https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease?resource=download]
