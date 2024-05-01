@@ -7,29 +7,29 @@ The core of the analysis lies in model evaluation, where three different algorit
 Finally, the script compares the models' performance using ROC AUC scores and learning curves. This comparison helps in identifying the most effective model for heart disease prediction. Overall, the script serves as a comprehensive guide to analyzing heart disease prediction using machine learning, offering insights into model performance and aiding in decision-making regarding model selection for real-world applications.
 
 Demographic Factors:
-Sex: Indicator of a person's gender (1 for "male" and 0 for "female").
-AgeCategory: Grouping people into age ranges.
-Race: One's racial background.
+- Sex: Indicator of a person's gender (1 for "male" and 0 for "female").
+- AgeCategory: Grouping people into age ranges.
+- Race: One's racial background.
 
 Lifestyle Factors:
-Smoking: Indicator of whether a person smokes or not (1 for "Yes" and 0 for "No").
-Alcohol Drinking: Indicator of whether a person has alcohol consumption habits (1 for "Yes" and 0 for "No").
-PhysicalActivity: Indicator of whether or not the person frequently engages in sports activities (1 for "Yes" and 0 for "No").
-SleepTime: Measurement of one's sleep time.
+- Smoking: Indicator of whether a person smokes or not (1 for "Yes" and 0 for "No").
+- Alcohol Drinking: Indicator of whether a person has alcohol consumption habits (1 for "Yes" and 0 for "No").
+- PhysicalActivity: Indicator of whether or not the person frequently engages in sports activities (1 for "Yes" and 0 for "No").
+- SleepTime: Measurement of one's sleep time.
 
 Medical Test Variables:
-Heart Disease: Final result indicating the presence of heart disease (1) or absence (0).
-Stroke: History of stroke (1 for "Yes" and 0 for "No").
-cp: Four types of chest pain.
-trestbps: Blood pressure at rest.
-chol: Cholesterol level in mg/dl.
-fbs: Blood sugar level in mg/dl.
-restecg: Result of the electrocardiograph at rest (values 0, 1, 2).
-thalach: Maximum heart rate achieved.
-exang: Chest pain when exercising or experiencing emotional stress.
-oldpeak: Exercise-induced ST-segment depression, a reliable ECG finding for diagnosing obstructive coronary atherosclerosis.
-slope: Peak training ST segment slope.
-ca: Number of major blood vessels (0-3) stained with fluoroscopy.
+- Heart Disease: Final result indicating the presence of heart disease (1) or absence (0).
+- Stroke: History of stroke (1 for "Yes" and 0 for "No").
+- cp: Four types of chest pain.
+- trestbps: Blood pressure at rest.
+- chol: Cholesterol level in mg/dl.
+- fbs: Blood sugar level in mg/dl.
+- restecg: Result of the electrocardiograph at rest (values 0, 1, 2).
+- thalach: Maximum heart rate achieved.
+- exang: Chest pain when exercising or experiencing emotional stress.
+- oldpeak: Exercise-induced ST-segment depression, a reliable ECG finding for diagnosing obstructive coronary atherosclerosis.
+- slope: Peak training ST segment slope.
+- ca: Number of major blood vessels (0-3) stained with fluoroscopy.
 
 Dependent Variable:
-Heart Disease: Presence (1) or absence (0) of cardiovascular disease in the patient.
+- Heart Disease: Presence (1) or absence (0) of cardiovascular disease in the patient.
